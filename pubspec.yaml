@@ -24,10 +24,18 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
   dio: ^2.0.9
+  flutter_swiper: ^1.1.6
+  flutter_screenutil: ^0.5.3
+  build_runner: ^1.6.3
+  json_serializable: ^3.1.0
+  groovin_material_icons: ^1.1.6
+  flutter_spinkit: ^3.1.0
+  fluttertoast: ^3.1.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+    
 
 
 # For information on the generic Dart part of this file, see the
@@ -71,3 +79,131 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+  assets:
+    - assets/images/logo.png
+    - assets/images/placeholder.png
+    - assets/images/empty.png
+    - assets/images/record_icon.png
+
+    - assets/images/login/top_logo.png
+
+    - assets/images/home/home-top.png
+    - assets/images/home/home-banner-test.png
+    - assets/images/home/云刷.png
+    - assets/images/home/升级.png
+    - assets/images/home/还款.png
+    - assets/images/home/notice.png
+    - assets/images/home/message.png
+    - assets/images/home/no-message.png
+    - assets/images/home/contact_we.png
+    - assets/images/home/weixin.png
+    - assets/images/home/weixin_add_friends.png
+    - assets/images/home/前进.png
+    - assets/images/home/contact_top.png
+    - assets/images/home/微信.png
+    - assets/images/home/客服.png
+
+    - assets/images/income/income_center_bg_img.png
+    - assets/images/income/yellow.png
+    - assets/images/income/green.png
+    - assets/images/income/blue.png
+    - assets/images/income/mack.png
+    - assets/images/income/macked.png
+    - assets/images/income/phone.png
+    - assets/images/income/withdraw.png
+    - assets/images/income/normal_user_bottom.png
+    - assets/images/income/withdraw_record.png
+    - assets/images/income/cancel.png
+    - assets/images/income/more.png
+    - assets/images/income/girf.png
+    - assets/images/income/geted.png
+    - assets/images/income/no-girf.png
+    - assets/images/income/0.png
+    - assets/images/income/1.png
+    - assets/images/income/2.png
+    - assets/images/income/3.png
+    - assets/images/income/4.png
+    - assets/images/income/5.png
+    - assets/images/income/6.png
+    - assets/images/income/7.png
+    - assets/images/income/8.png
+    - assets/images/income/9.png
+    - assets/images/income/progress.png
+    - assets/images/income/get-success.png
+    - assets/images/income/task.png
+    - assets/images/income/task-record.png
+    - assets/images/income/before-add-record.png
+
+    - assets/images/user/1.png
+    - assets/images/user/1.1.png
+    - assets/images/user/1.2.png
+    - assets/images/user/2.png
+    - assets/images/user/3.png
+    - assets/images/user/4.png
+    - assets/images/user/4.0.png
+    - assets/images/user/5.png
+    - assets/images/user/6.png
+    - assets/images/user/update.png
+    - assets/images/user/vip_card_record.png
+    - assets/images/user/认证失败.png
+    - assets/images/user/认证成功.png
+    - assets/images/user/认证中.png
+    - assets/images/user/security1.png
+    - assets/images/user/security2.png
+    - assets/images/user/security3.png
+    - assets/images/user/level_0_a.png
+    - assets/images/user/level_1_a.png
+    - assets/images/user/level_2_a.png
+    - assets/images/user/level_3_a.png
+    - assets/images/user/level_4_a.png
+    - assets/images/user/level_100_a.png
+    - assets/images/user/相机.png
+    - assets/images/user/edit.png
+
+
+    - assets/images/cloudSwipe/floatBtn.png
+    - assets/images/cloudSwipe/step_active.png
+    - assets/images/cloudSwipe/step_normal.png
+    - assets/images/cloudSwipe/input.png
+    - assets/images/cloudSwipe/output.png
+
+    - assets/images/repayment/card_list_top.png
+    - assets/images/repayment/add.png
+    - assets/images/repayment/del.png
+    - assets/images/repayment/icon_repayment.png
+    - assets/images/repayment/icon_time.png
+    - assets/images/repayment/delete.png
+    - assets/images/repayment/check_circle.png
+    - assets/images/repayment/uncheck_circle.png
+    - assets/images/repayment/reset.png
+
+    - assets/images/share/weixin.png
+    - assets/images/share/friends.png
+    - assets/images/share/shareWX.png
+    - assets/images/share/shareQR.png
+    
+    - assets/images/card/help.png
+    - assets/images/card/effect.png
+    - assets/images/card/cvn2.png
+    - assets/images/card/tel.png
+    - assets/images/card/add_credit_1.png
+    - assets/images/card/add_credit_2.png
+    - assets/images/card/add_credit_3.png
+    - assets/images/card/add_savings.png
+
+    - assets/images/common/uncheck.png
+    - assets/images/common/checked.png
+    - assets/images/common/scan.png
+    - assets/images/common/camera.png
+    - assets/images/common/idCard.png
+    - assets/images/common/储蓄卡.png
+    - assets/images/common/real_bg.png
+    - assets/images/common/realed.png
+
+    - assets/icon/share_icon.png
+    - assets/icon/icon.png
+
+    - assets/images/test/close.png
+    - assets/images/test/activity.png
+    - assets/images/test/task_top.png
